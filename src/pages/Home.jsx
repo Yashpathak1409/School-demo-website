@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Users, Award, ShieldAlert, ChevronRight, BookOpen, 
-  ArrowUpRight, Building, HelpCircle, CheckSquare 
+  ArrowUpRight, Building, HelpCircle, CheckSquare, BellRing 
 } from 'lucide-react';
 import '../styles/pages/pages.css';
 
@@ -11,6 +11,20 @@ const Home = () => {
   return (
     <div className="home-wrapper">
       
+      {/* Urgent Admissions Alarm Bar */}
+      <div className="admissions-alarm-bar animate-fade-in">
+        <div className="container alarm-flex">
+          <div className="alarm-left">
+            <span className="alarm-pulse-dot"></span>
+            <BellRing className="alarm-bell-icon" size={18} />
+            <span>Admissions Alert: Enrollment is open for Session 2026-27 (Nursery to Class XI). limited seats remaining!</span>
+          </div>
+          <Link to="/contact" className="btn btn-secondary alarm-btn">
+            Apply Now / Inquiry
+          </Link>
+        </div>
+      </div>
+
       {/* 1. Hero Banner */}
       <section className="hero-section">
         <div className="container">
@@ -88,7 +102,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 4. Principal Message */}
+      {/* 4. Manager Message */}
       <section className="section">
         <div className="container">
           <div className="principal-section">
@@ -96,29 +110,29 @@ const Home = () => {
             <div className="principal-image-container">
               <div className="principal-image-frame">
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=600&auto=format&fit=crop" 
-                  alt="Principal Mr. Devendra Singh" 
+                  src="/manager.png" 
+                  alt="Managing Director Mr. Satish Chaudhary" 
                 />
               </div>
               <div className="principal-experience-badge">
-                <span>15+ Yrs</span>
-                Experience
+                <span>ESTD</span>
+                2005
               </div>
             </div>
 
             <div className="principal-content">
-              <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Message from Desk</span>
-              <h3>Principal's Address</h3>
-              <div className="principal-title">Mr. Devendra Singh, Principal</div>
+              <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Message from Manager</span>
+              <h3>Manager's Address</h3>
+              <div className="principal-title">Mr. Satish Chaudhary, Managing Director</div>
               <p className="principal-message">
-                "Our vision at Brij Sthali Academy is to nurture curious minds and foster moral character in a welcoming, technologically advanced setting. We believe that true education goes beyond textbooks—it lies in curiosity, critical analysis, sportsmanship, and service to society."
+                "Our core commitment at Brij Sthali Academy is to spark curiosity, build unwavering character, and support the dreams of our young students. True education is about giving children the resources, labs, sports fields, and values to turn their potential into a flame of success."
               </p>
               <p style={{ color: 'var(--text-muted)', marginBottom: '30px' }}>
-                We are committed to delivering rigorous education that prepares students for global challenges while rooted in our regional culture and heritage. Our teachers work closely with families to create paths where every student achieves their fullest potential.
+                Under the guidance of our dedicated faculty and resident coaches, we have built a residential and academic campus in Mathura that blends modern science instruction, standard digital aids, and traditional values. We invite families to partner with us in shaping the leaders of tomorrow.
               </p>
               <div className="principal-signature">
-                <h4>Devendra Singh</h4>
-                <p>Principal, Brij Sthali Academy</p>
+                <h4>Satish Chaudhary</h4>
+                <p>Managing Director & Founder, Brij Sthali Academy</p>
               </div>
             </div>
 

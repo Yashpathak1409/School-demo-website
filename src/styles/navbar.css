@@ -90,6 +90,7 @@
 }
 
 .nav-item a {
+  display: inline-block;
   color: #cbd5e1;
   font-size: 0.88rem;
   font-weight: 600;
@@ -123,7 +124,7 @@
 
 .nav-item a:hover::after,
 .nav-item a.active::after {
-  width: 80%;
+  width: 100%;
 }
 
 .contact-btn-nav {
