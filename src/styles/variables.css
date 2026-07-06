@@ -1,0 +1,69 @@
+/* variables.css */
+:root {
+  /* Color Palette */
+  --primary-color: #0b2240;      /* Deep Navy Blue */
+  --primary-light: #173862;      /* Medium Navy */
+  --primary-dark: #051329;       /* Darkest Blue */
+  
+  --secondary-color: #d4af37;    /* Royal Gold */
+  --secondary-light: #ffd700;    /* Bright Gold */
+  --secondary-dark: #b8860b;     /* Dark Gold / Bronze */
+  
+  --accent-color: #f7b924;       /* Amber Accent */
+  --bg-light: #f9fbfd;           /* Off-white background */
+  --bg-dark: #08101e;            /* Dark mode background */
+  
+  --text-primary: #1e293b;       /* Slate 800 */
+  --text-muted: #64748b;         /* Slate 500 */
+  --text-light: #ffffff;         /* Pure white */
+  --text-gold: #e2b43b;          /* Gold text for dark backgrounds */
+  
+  --success-color: #10b981;      /* Emerald 500 */
+  --error-color: #ef4444;        /* Red 500 */
+  --warning-color: #f59e0b;      /* Amber 500 */
+  
+  /* Borders and Backgrounds */
+  --border-color: #e2e8f0;       /* Slate 200 */
+  --card-bg: #ffffff;
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.25);
+  
+  /* Fonts */
+  --font-sans: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, Cambria, serif;
+  
+  /* Layout & Spacing */
+  --max-width: 1200px;
+  --header-height: 80px;
+  --border-radius-sm: 6px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 24px;
+  
+  /* Box Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.12);
+  --shadow-gold: 0 8px 20px rgba(212, 175, 55, 0.2);
+  --glass-shadow: 0 8px 32px 0 rgba(11, 34, 64, 0.1);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base resets & standard definitions */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,17 @@
+/* index.css */
+@import './styles/global.css';
+@import './styles/pages/pages.css';
+
+/* Fix Vite root container centering if needed */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure pages have top padding so they aren't hidden behind the fixed header */
+main {
+  flex-grow: 1;
+  padding-top: var(--header-height);
+  min-height: calc(100vh - var(--header-height));
+}
