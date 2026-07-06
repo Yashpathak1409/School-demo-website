@@ -1598,4 +1598,190 @@
   }
 }
 
+/* ---------------------------------------------------- */
+/* RESPONSIVE LAYOUT OVERRIDES (MOBILE & TABLET) */
+/* ---------------------------------------------------- */
+
+@media (max-width: 992px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0;
+  }
+  .teacher-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quick-links-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .about-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  .about-photo-stack {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .photo-stack-item {
+    position: static;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .principal-section {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+  .principal-image-container {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    padding: 120px 0 60px;
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 100%;
+  }
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .page-header {
+    padding: 60px 0;
+  }
+  .page-header h1 {
+    font-size: 2.2rem;
+  }
+  .section {
+    padding: 50px 0;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .teacher-grid {
+    grid-template-columns: 1fr;
+  }
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+  .tc-grid-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .contact-layout-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .hostel-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  /* Transcript adjustments */
+  .transcript-card {
+    padding: 20px;
+  }
+  .transcript-student-details {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+  }
+  .student-detail-item strong {
+    width: 110px;
+    font-size: 0.85rem;
+  }
+  .student-detail-item p {
+    font-size: 0.85rem;
+  }
+  .transcript-summary-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .transcript-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  /* Result Toppers Grid */
+  div[style*="gridTemplateColumns: 'repeat(2, 1fr)'"],
+  div[style*="grid-template-columns: repeat(2, 1fr)"] {
+    grid-template-columns: 1fr !important;
+  }
+  .topper-banner-img {
+    height: 250px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  .lightbox-content {
+    max-width: 95%;
+  }
+  .lightbox-image {
+    max-height: 60vh;
+  }
+  
+  /* Collapsing forms layout grids */
+  .form-group[style*="grid"],
+  div[style*="display: 'grid'"] {
+    display: block !important;
+  }
+  .form-group[style*="grid"] > div,
+  div[style*="display: 'grid'"] > div {
+    margin-bottom: 15px;
+  }
+  .form-group[style*="grid"] > div:last-child,
+  div[style*="display: 'grid'"] > div:last-child {
+    margin-bottom: 0;
+  }
+  
+  .transcript-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .transcript-header-left {
+    flex-direction: column;
+    text-align: center;
+  }
+  .transcript-school-info h2 {
+    font-size: 1.3rem;
+  }
+  .transcript-school-info p {
+    font-size: 0.7rem;
+  }
+}
+
+
 
