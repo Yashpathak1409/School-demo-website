@@ -33,11 +33,11 @@ const Navbar = () => {
         {/* Brand Logo */}
         <NavLink to="/" className="logo-section">
           <div className="logo-icon-box">
-            <img src="/logo.png" alt="Brij Sthali Academy Logo" />
+            <img src="/logo.png" alt="Archana Pharmacy College Logo" />
           </div>
           <div className="logo-text-box">
-            <h2>Brij Sthali Academy</h2>
-            <span>Senior Secondary School</span>
+            <h2>Archana Pharmacy College</h2>
+            <span>Approved by PCI, New Delhi</span>
           </div>
         </NavLink>
 

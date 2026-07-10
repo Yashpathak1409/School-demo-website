@@ -61,7 +61,7 @@ const Teacher = () => {
             <div>
               <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.25rem', color: 'var(--primary-color)' }}>Faculty Training & Seminars</h3>
               <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginTop: '4px' }}>
-                All faculty staff at Brij Sthali Academy undergo periodic professional training workshops, CBSE workshops, and curriculum reviews to stay ahead of pedagogical standards.
+                All faculty staff at Archana Pharmacy College undergo periodic professional training workshops, PCI seminars, and curriculum reviews to stay ahead of educational and clinical standards.
               </p>
             </div>
           </div>

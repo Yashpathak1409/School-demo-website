@@ -8,14 +8,12 @@
 /* Hero Banner */
 .hero-section {
   position: relative;
-  height: 90vh;
-  min-height: 550px;
-  background: linear-gradient(rgba(11, 34, 64, 0.65), rgba(5, 19, 41, 0.85)), url('/hero-bg.jpg') center/cover no-repeat;
+  min-height: 80vh;
   display: flex;
   align-items: center;
-  color: var(--text-light);
-  overflow: hidden;
-  padding-top: var(--header-height);
+  color: #ffffff;
+  padding: 80px 0;
+  background: linear-gradient(rgba(11, 34, 64, 0.65), rgba(5, 19, 41, 0.85)), url('https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
 }
 
 .hero-content {
@@ -1470,43 +1468,43 @@
 
 /* Page Specific Background Headers */
 .about-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event3.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .course-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event1.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .gallery-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event4.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1579154204601-01588f35116f?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .result-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event2.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .blog-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event1.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .tc-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event2.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .teacher-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event3.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .hostel-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/hero-bg.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .disclosure-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/gallery/event4.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 .contact-header {
-  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('/hero-bg.jpg') center/cover no-repeat !important;
+  background: linear-gradient(rgba(11, 34, 64, 0.72), rgba(5, 19, 41, 0.88)), url('https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat !important;
 }
 
 /* Admissions Alarm Bar */

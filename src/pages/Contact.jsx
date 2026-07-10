@@ -17,23 +17,23 @@ const Contact = () => {
   const faqs = [
     {
       q: "What is the admission procedure for the new academic session?",
-      a: "Admissions begin in December each year. Parents need to submit the registration form along with the candidate's transfer certificate (TC), birth certificate, and recent photographs. A minor screening test is conducted for admission into Class VI and above."
+      a: "Admissions begin in December each year. Candidates seeking admission to D.Pharm and B.Pharm need to submit the registration form along with academic transcripts (10+2 Science marksheets), transfer certificate (TC), and passport photographs."
     },
     {
-      q: "What are the standard timing and hours of the academy?",
-      a: "For Primary Wing (Nursery to V), the timing is 08:30 AM to 01:30 PM. For Secondary and Senior Secondary wings, the school runs from 08:00 AM to 02:00 PM. Hostal prep hours occur from 06:00 PM to 08:00 PM daily."
+      q: "What are the standard timing and hours of the college?",
+      a: "Standard lecture and laboratory hours run from 09:00 AM to 04:00 PM. Hostel prep hours and library study hours occur from 06:00 PM to 08:30 PM daily."
     },
     {
-      q: "Does the school provide transport facilities for day scholars?",
-      a: "Yes, Brij Sthali Academy operates a fleet of secure school buses covering Mant, Tentigaon, and nearby villages in Mathura. All buses are staffed with experienced drivers and conductors."
+      q: "Does the college provide transport facilities for day scholars?",
+      a: "Yes, Archana Pharmacy College operates a fleet of secure college buses covering Mant, Tentigaon, and surrounding districts in Mathura for student convenience."
     },
     {
       q: "What are the fee payment structures and frequency?",
-      a: "School fees can be paid quarterly (in 4 cycles: April, July, October, January) or monthly. Payments can be submitted via Net Banking, UPI, or directly at the school accounts window."
+      a: "College fees are payable semester-wise or annually. Payments can be submitted online via Net Banking, UPI, or directly at the college administrative accounts office."
     },
     {
-      q: "Are hostel accommodations available for outstation pupils?",
-      a: "Yes, we offer premium residential wings for boys and girls separately, complete with recreation rooms, 24/7 security, evening tutorials, and standard pure vegetarian dining halls."
+      q: "Are hostel accommodations available for outstation students?",
+      a: "Yes, we offer premium separate hostels for boys and girls, complete with Wi-Fi, reference libraries, 24/7 security, recreation rooms, and hygienic dining halls."
     }
   ];
 
@@ -89,7 +89,7 @@ const Contact = () => {
                   <MapPin size={22} />
                 </div>
                 <div>
-                  <h4>School Location</h4>
+                  <h4>College Location</h4>
                   <p>Vill + Post - Tentigaon, Mant Sub-district, Mathura District, Uttar Pradesh, PIN - 281205, India</p>
                 </div>
               </div>
@@ -101,11 +101,9 @@ const Contact = () => {
                 <div>
                   <h4>Mobile Support</h4>
                   <p>
-                    <a href="tel:7300709977" style={{ display: 'block' }}>+91 7300709977 (Direct)</a>
-                    <a href="tel:8077477382" style={{ display: 'block' }}>+91 8077477382 (Office)</a>
-                    <a href="tel:7895156095" style={{ display: 'block' }}>+91 7895156095 (Reception)</a>
+                    <a href="tel:8839248262" style={{ display: 'block' }}>+91 8839248262 (Principal Desk)</a>
                   </p>
-                  <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '6px' }}>Timing: 08:00 AM - 04:00 PM</p>
+                  <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '6px' }}>Timing: 09:00 AM - 04:00 PM</p>
                 </div>
               </div>
 
@@ -115,7 +113,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4>Official Email</h4>
-                  <p><a href="mailto:brijsthaliacademy2@gmail.com">brijsthaliacademy2@gmail.com</a></p>
+                  <p><a href="mailto:archanapharmacycballia@gmail.com">archanapharmacycballia@gmail.com</a></p>
                   <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>Response within 24 Hours</p>
                 </div>
               </div>
@@ -123,10 +121,10 @@ const Contact = () => {
               {/* Styled Map Geolocation box */}
               <div className="contact-map-mockup">
                 <div className="map-overlay-card">
-                  <h4>Brij Sthali Academy</h4>
+                  <h4>Archana Pharmacy College</h4>
                   <p>Vill+Post- Tentigaon, Mant, Mathura</p>
                   <a 
-                    href="https://maps.google.com/?q=Brij+Sthali+Academy+Tentigaon+Mathura" 
+                    href="https://maps.google.com/?q=Archana+Pharmacy+College+Tentigaon+Mathura" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn btn-secondary" 
@@ -150,7 +148,7 @@ const Contact = () => {
                   </div>
                   <h4 style={{ fontFamily: 'var(--font-serif)', color: 'var(--primary-color)', marginBottom: '8px' }}>Thank You, {name}!</h4>
                   <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
-                    Your academic/administrative query has been registered. A school coordinator will email details or call your mobile number (+91 7895156095 desk) shortly.
+                    Your academic/administrative query has been registered. A college representative will email details or call your mobile number (+91 8839248262 desk) shortly.
                   </p>
                 </div>
               ) : (

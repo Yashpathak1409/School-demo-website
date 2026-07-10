@@ -10,7 +10,7 @@ const About = () => {
       {/* Page Header */}
       <section className="page-header about-header">
         <div className="container animate-fade-in">
-          <h1>About Our School</h1>
+          <h1>About Our College</h1>
           <div className="breadcrumbs">
             <a href="/">Home</a> <span>/</span> About Us
           </div>
@@ -23,30 +23,30 @@ const About = () => {
           <div className="about-intro-grid">
             
             <div className="about-intro-content animate-slide-up">
-              <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Established 2011</span>
-              <h2 className="section-title" style={{ display: 'block', textAlign: 'left', margin: '10px 0 20px' }}>Academic Excellence in Mathura</h2>
+              <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Established 2024</span>
+              <h2 className="section-title" style={{ display: 'block', textAlign: 'left', margin: '10px 0 20px' }}>Pharmaceutical Excellence in Mathura</h2>
               <p>
-                Brij Sthali Academy Senior Secondary School is a premier co-educational institution located in the peaceful rural landscape of <strong>Vill+Post- Tentigaon, Mant, Mathura</strong>. Established with a vision to make top-tier education accessible to students in the rural and semi-urban belts, the school has grown into a hub of academic excellence and values.
+                Archana Pharmacy College is a premier pharmaceutical institution located in the peaceful landscape of <strong>Vill+Post- Tentigaon, Mant, Mathura</strong>. Established with a vision to make top-tier healthcare and pharmaceutical education accessible, the college has grown into a hub of academic excellence, research, and ethics.
               </p>
               <p>
-                Approved for senior secondary education, we offer streams in Science, Commerce, and Humanities. Our campus is spread over a sprawling green area, offering a pollution-free and highly focused learning environment.
+                Approved by the Pharmacy Council of India (PCI), New Delhi, we offer Bachelor of Pharmacy (B.Pharm) and Diploma in Pharmacy (D.Pharm) courses. Our campus is spread over a sprawling area, offering a modern, state-of-the-art laboratory and focused learning environment.
               </p>
               <p>
-                Through a blend of rigorous academics, sports training, science fairs, and personality building workshops, we nurture our students to become confident leaders of tomorrow.
+                Through a blend of rigorous laboratory training, clinical assignments, research expos, and professional development seminars, we prepare our students to become competent pharmacists and research scientists of tomorrow.
               </p>
             </div>
 
             <div className="about-photo-stack">
               <div className="photo-stack-item photo-stack-item-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=600&auto=format&fit=crop" 
-                  alt="School Campus Building" 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=600&auto=format&fit=crop" 
+                  alt="Modern Pharmacy Laboratory" 
                 />
               </div>
               <div className="photo-stack-item photo-stack-item-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=600&auto=format&fit=crop" 
-                  alt="Students in Library" 
+                  src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=600&auto=format&fit=crop" 
+                  alt="Pharmacy Reference Library" 
                 />
               </div>
             </div>
@@ -104,7 +104,7 @@ const About = () => {
         <div className="container">
           <div className="text-center">
             <h2 className="section-title">Management Board</h2>
-            <p className="section-subtitle">Dedicated leaders driving the academic and administrative growth of Brij Sthali Academy.</p>
+            <p className="section-subtitle">Dedicated leaders driving the academic and administrative growth of Archana Pharmacy College.</p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '40px', marginTop: '20px' }}>

@@ -92,9 +92,9 @@ const Result = () => {
                 <HelpCircle size={15} /> Demo Roll Numbers:
               </h4>
               <ul style={{ paddingLeft: '20px', lineHeight: '1.6' }}>
-                <li><strong>202601</strong> - Amit Chaudhary (Class XII - Science)</li>
-                <li><strong>202602</strong> - Priya Sharma (Class XII - Commerce)</li>
-                <li><strong>202603</strong> - Rahul Singh (Class X)</li>
+                <li><strong>202601</strong> - Amit Chaudhary (B.Pharm - VII Semester)</li>
+                <li><strong>202602</strong> - Priya Sharma (D.Pharm - II Year)</li>
+                <li><strong>202603</strong> - Rahul Singh (B.Pharm - I Semester)</li>
               </ul>
             </div>
 
@@ -108,16 +108,16 @@ const Result = () => {
           <div className="text-center">
             <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1.5px' }}>Board Achievements</span>
             <h2 className="section-title">Our Academic Toppers</h2>
-            <p className="section-subtitle">Celebrating the outstanding achievements of our students in CBSE Board Examinations. Hard work, guidance, and standard efforts pave the path to excellence.</p>
+            <p className="section-subtitle">Celebrating the outstanding achievements of our students in Board & University Exams. Hard work, guidance, and academic dedication pave the path to excellence.</p>
           </div>
 
           {/* Bold Motivational Quote */}
           <div style={{ maxWidth: '800px', margin: '0 auto 40px', textAlign: 'center', padding: '24px', backgroundColor: 'var(--card-bg)', borderLeft: '4px solid var(--secondary-color)', borderRadius: '4px', boxShadow: 'var(--shadow-sm)' }}>
             <p style={{ fontSize: '1.15rem', fontWeight: '700', color: 'var(--primary-color)', fontStyle: 'italic', lineHeight: '1.6' }}>
-              "Success is the outcome of constant prep work, rigorous study schedules, and the relentless support of mentors. Brij Sthali Academy toppers have set benchmarks of academic brilliance."
+              "Success is the outcome of constant laboratory diligence, rigorous study, and the relentless support of mentors. Archana Pharmacy College toppers have set benchmarks of academic brilliance."
             </p>
             <span style={{ display: 'block', marginTop: '10px', fontSize: '0.88rem', fontWeight: '600', color: 'var(--secondary-dark)' }}>
-              — SCHOOL MANAGEMENT & ACADEMIC BOARD
+              — COLLEGE MANAGEMENT & ACADEMIC BOARD
             </span>
           </div>
 
@@ -127,42 +127,42 @@ const Result = () => {
             <div 
               className="card" 
               style={{ padding: '15px', cursor: 'pointer', overflow: 'hidden', textAlign: 'center', transition: 'var(--transition-normal)' }}
-              onClick={() => setSelectedTopper('/toppers-xii.jpg')}
+              onClick={() => setSelectedTopper('https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=800')}
             >
               <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.3rem', color: 'var(--primary-color)', marginBottom: '12px' }}>
-                Class XII Board Toppers
+                B.Pharm University Toppers
               </h3>
               <div style={{ overflow: 'hidden', borderRadius: '8px', border: '1px solid var(--border-color)', height: '350px' }}>
                 <img 
-                  src="/toppers-xii.jpg" 
-                  alt="Class XII Toppers Banner - Mayank Sharma 93%" 
+                  src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=800" 
+                  alt="B.Pharm Toppers Banner" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover', transition: '0.5s ease' }}
                   className="topper-banner-img"
                 />
               </div>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '12px', fontWeight: '500' }}>
-                🔍 Click image to enlarge / view Class XII results
+                🔍 Click image to enlarge / view B.Pharm results
               </p>
             </div>
 
             <div 
               className="card" 
               style={{ padding: '15px', cursor: 'pointer', overflow: 'hidden', textAlign: 'center', transition: 'var(--transition-normal)' }}
-              onClick={() => setSelectedTopper('/toppers-x.jpg')}
+              onClick={() => setSelectedTopper('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800')}
             >
               <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.3rem', color: 'var(--primary-color)', marginBottom: '12px' }}>
-                Class X Board Toppers
+                D.Pharm Board Toppers
               </h3>
               <div style={{ overflow: 'hidden', borderRadius: '8px', border: '1px solid var(--border-color)', height: '350px' }}>
                 <img 
-                  src="/toppers-x.jpg" 
-                  alt="Class X Toppers Banner - Aditya Kumar Singh 97%" 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800" 
+                  alt="D.Pharm Toppers Banner" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover', transition: '0.5s ease' }}
                   className="topper-banner-img"
                 />
               </div>
               <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '12px', fontWeight: '500' }}>
-                🔍 Click image to enlarge / view Class X results
+                🔍 Click image to enlarge / view D.Pharm results
               </p>
             </div>
 

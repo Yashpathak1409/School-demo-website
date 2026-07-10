@@ -57,8 +57,8 @@ const ResultDetail = () => {
                   <img src="/logo.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '50%' }} />
                 </div>
                 <div className="transcript-school-info">
-                  <h2>Brij Sthali Academy</h2>
-                  <p>Senior Secondary School • Vill+Post- Tentigaon, Mant, Mathura</p>
+                  <h2>Archana Pharmacy College</h2>
+                  <p>Approved by PCI, New Delhi • Vill+Post- Tentigaon, Mant, Mathura</p>
                 </div>
               </div>
               <div className="transcript-header-right">

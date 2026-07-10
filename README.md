@@ -1,19 +1,18 @@
-# Brij Sthali Academy Senior Secondary School - Official Website
+# Archana Pharmacy College - Official Website
 
-Welcome to the official web application repository of **Brij Sthali Academy Senior Secondary School**, situated in Vill+Post- Tentigaon, Mant, Mathura.
+Welcome to the official web application repository of **Archana Pharmacy College**, situated in Vill+Post- Tentigaon, Mant, Mathura.
 
-This is a premium, highly responsive, and interactive school website built using **React**, **Vite**, and **Vanilla CSS** (conforming to strict aesthetic guidelines).
+This is a premium, highly responsive, and interactive college website built using **React**, **Vite**, and **Vanilla CSS** (conforming to strict aesthetic guidelines).
 
 ---
 
-## 🏛️ School Information Summary
+## 🏛️ College Information Summary
 
-*   **Name**: Brij Sthali Academy Senior Secondary School
+*   **Name**: Archana Pharmacy College
 *   **Location**: Vill + Post - Tentigaon, Mant, Mathura, Uttar Pradesh, PIN - 281205
-*   **Affiliation**: Affiliated to C.B.S.E. New Delhi (Affiliation No: 2131309)
-*   **Email**: [brijsthaliacademy2@gmail.com](mailto:brijsthaliacademy2@gmail.com)
-*   **Phone (Direct Support)**: +91 7300709977, +91 8077477382
-*   **Phone (Reception)**: +91 7895156095
+*   **Affiliation**: Approved by Pharmacy Council of India (PCI), New Delhi
+*   **Email**: [archanapharmacycballia@gmail.com](mailto:archanapharmacycballia@gmail.com)
+*   **Phone**: +91 8839248262
 
 ---
 

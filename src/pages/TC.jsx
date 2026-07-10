@@ -100,7 +100,7 @@ const TC = () => {
                   <ShieldCheck size={22} style={{ color: 'var(--success-color)' }} /> Verify Issued TC
                 </h3>
                 <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)', marginBottom: '20px' }}>
-                  Verify official withdrawal certificates issued by the academy board. Search by certificate ID.
+                  Verify official withdrawal certificates issued by the college board. Search by certificate ID.
                 </p>
 
                 <form onSubmit={handleTcSearch}>
@@ -140,8 +140,8 @@ const TC = () => {
                           <img src="/logo.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '50%' }} />
                         </div>
                       </div>
-                      <h2>Brij Sthali Academy</h2>
-                      <p>Senior Secondary School • Vill+Post- Tentigaon, Mathura</p>
+                      <h2>Archana Pharmacy College</h2>
+                      <p>Approved by PCI, New Delhi • Vill+Post- Tentigaon, Mathura</p>
                       <span style={{ fontSize: '0.75rem', color: 'var(--success-color)', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '4px', border: '1px solid var(--success-color)', padding: '2px 8px', borderRadius: '4px', marginTop: '6px', backgroundColor: '#ecfdf5' }}>
                         ✓ OFFICIAL SYSTEM VERIFIED
                       </span>
@@ -174,11 +174,11 @@ const TC = () => {
                       <span className="value">{searchedTc.dateOfBirth}</span>
                     </div>
                     <div className="tc-field-row">
-                      <span className="label">Class Left/Withdrawn:</span>
+                      <span className="label">Course Left/Withdrawn:</span>
                       <span className="value">{searchedTc.classLeft}</span>
                     </div>
                     <div className="tc-field-row">
-                      <span className="label">Date of Leaving School:</span>
+                      <span className="label">Date of Leaving College:</span>
                       <span className="value">{searchedTc.dateOfLeaving}</span>
                     </div>
                     <div className="tc-field-row">
@@ -262,7 +262,7 @@ const TC = () => {
                         />
                       </div>
                       <div>
-                        <label className="form-label" htmlFor="className">Last Class Studied *</label>
+                        <label className="form-label" htmlFor="className">Last Course Studied *</label>
                         <input 
                           type="text" 
                           id="className"
@@ -270,7 +270,7 @@ const TC = () => {
                           onChange={(e) => setFormData({...formData, className: e.target.value})}
                           required 
                           className="form-control" 
-                          placeholder="e.g. Class XII - Science" 
+                          placeholder="e.g. B.Pharm - VII Sem" 
                         />
                       </div>
                     </div>
@@ -283,7 +283,7 @@ const TC = () => {
                         onChange={(e) => setFormData({...formData, reason: e.target.value})}
                         className="form-control" 
                         rows="3" 
-                        placeholder="e.g. Parents relocating to another state / Completed board examinations"
+                        placeholder="e.g. Completed pharmacy course / Transferred to another university"
                         style={{ resize: 'vertical' }}
                       ></textarea>
                     </div>

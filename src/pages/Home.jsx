@@ -17,11 +17,11 @@ const Home = () => {
           <div className="alarm-left">
             <span className="alarm-pulse-dot"></span>
             <BellRing className="alarm-bell-icon" size={18} />
-            <span>Admissions Alert: Enrollment is open for Session 2026-27 (Nursery to Class XI). limited seats remaining!</span>
+            <span>Admissions Alert: Enrollment is open for Session 2026-27 (D.Pharm & B.Pharm). limited seats remaining!</span>
           </div>
-          <Link to="/contact" className="btn btn-secondary alarm-btn">
-            Apply Now / Inquiry
-          </Link>
+          <a href="https://jnuadmissions.udyogx.in/apps" target="_blank" rel="noopener noreferrer" className="btn btn-secondary alarm-btn">
+            Apply Online / Admission
+          </a>
         </div>
       </div>
 
@@ -29,10 +29,10 @@ const Home = () => {
       <section className="hero-section">
         <div className="container">
           <div className="hero-content animate-slide-up">
-            <span className="hero-badge">Est. 2011 • Co-Educational</span>
-            <h1>Nurturing Minds, <span>Inspiring Excellence</span></h1>
+            <span className="hero-badge">Est. 2024 • Approved by PCI</span>
+            <h1>Shaping the Future of <span>Pharmaceutical Care</span></h1>
             <p>
-              Welcome to Brij Sthali Academy Senior Secondary School, a premier institution in Tentigaon (Mathura) dedicated to providing holistic learning, scientific inquiry, and standard values.
+              Welcome to Archana Pharmacy College, a premier institution in Tentigaon (Mathura) dedicated to providing quality education in pharmacy, advanced laboratory training, and clinical excellence.
             </p>
             <div className="hero-actions">
               <Link to="/course" className="btn btn-secondary">
@@ -53,10 +53,10 @@ const Home = () => {
         </div>
         <div className="marquee-container">
           <div className="marquee-content">
-            <span>🎓 Admissions open for Academic Session 2026-27 from Nursery to Class XI. Visit contact desk or call 7300709977, 8077477382.</span>
-            <span>📝 Mock examinations for classes X and XII begin next week. View subject-wise syllabus in Academics Portal.</span>
-            <span>🏆 Congratulations to Raman House for winning the Annual Sports Meet Championship Shield!</span>
-            <span>🚌 New school bus routes from Mant and surrounding Mathura districts are operational from July 1st.</span>
+            <span>🎓 Admissions open for Academic Session 2026-27 for D.Pharm & B.Pharm. Apply online or call 8839248262.</span>
+            <span>📝 Semester mock examinations for B.Pharm and D.Pharm courses begin next week. View details in Academics Portal.</span>
+            <span>🏆 Congratulations to our students for winning the Inter-College Pharmacy Quiz Championship!</span>
+            <span>🚌 College transport facility covers Mant, Tentigaon, and surrounding Mathura districts from July 1st.</span>
           </div>
         </div>
       </div>
@@ -94,8 +94,8 @@ const Home = () => {
               <div className="stat-icon-wrapper">
                 <CheckSquare size={28} />
               </div>
-              <div className="stat-number">99%</div>
-              <div className="stat-label">CBSE Success Rate</div>
+              <div className="stat-number">98%</div>
+              <div className="stat-label">Board Passing Rate</div>
             </div>
 
           </div>
@@ -110,29 +110,29 @@ const Home = () => {
             <div className="principal-image-container">
               <div className="principal-image-frame">
                 <img 
-                  src="/manager.png" 
-                  alt="Managing Director Mr. Satish Chaudhary" 
+                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=400&auto=format&fit=crop" 
+                  alt="Principal Manoj Kumar" 
                 />
               </div>
               <div className="principal-experience-badge">
                 <span>ESTD</span>
-                2005
+                2024
               </div>
             </div>
 
             <div className="principal-content">
-              <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Message from Manager</span>
-              <h3>Manager's Address</h3>
-              <div className="principal-title">Mr. Satish Chaudhary, Managing Director</div>
+              <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Message from Principal</span>
+              <h3>Principal's Address</h3>
+              <div className="principal-title">Manoj Kumar, Principal</div>
               <p className="principal-message">
-                "Our core commitment at Brij Sthali Academy is to spark curiosity, build unwavering character, and support the dreams of our young students. True education is about giving children the resources, labs, sports fields, and values to turn their potential into a flame of success."
+                "Our core commitment at Archana Pharmacy College is to foster innovation, clinical integrity, and research excellence. Pharmaceutical education is about giving students the advanced laboratories, formulation expertise, and scientific ethics to serve global healthcare."
               </p>
               <p style={{ color: 'var(--text-muted)', marginBottom: '30px' }}>
-                Under the guidance of our dedicated faculty and resident coaches, we have built a residential and academic campus in Mathura that blends modern science instruction, standard digital aids, and traditional values. We invite families to partner with us in shaping the leaders of tomorrow.
+                Under the guidance of our dedicated lecturers and pharmaceutical mentors, we have created an academic campus in Mathura that blends modern pharmacology research, digital drug design portals, and traditional values. We invite students to join us in shaping the future of healthcare.
               </p>
               <div className="principal-signature">
-                <h4>Satish Chaudhary</h4>
-                <p>Managing Director & Founder, Brij Sthali Academy</p>
+                <h4>Manoj Kumar</h4>
+                <p>Principal, Archana Pharmacy College</p>
               </div>
             </div>
 
@@ -155,7 +155,7 @@ const Home = () => {
                 <BookOpen size={36} />
               </div>
               <h3>Academics & Courses</h3>
-              <p>Explore streams offered at senior secondary levels including Science, Commerce, and Arts with details on subjects, practical labs, and evaluation patterns.</p>
+              <p>Explore our PCI approved pharmaceutical courses including B.Pharm and D.Pharm with details on syllabi, state-of-the-art laboratory research, and training hours.</p>
               <Link to="/course" className="quick-link-arrow">
                 View Curriculum <ArrowUpRight size={16} />
               </Link>

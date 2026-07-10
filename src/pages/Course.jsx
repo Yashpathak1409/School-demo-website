@@ -24,47 +24,47 @@ const Course = () => {
 
   const getSyllabusDetails = (courseId) => {
     switch (courseId) {
-      case 'primary':
+      case 'b-pharm':
         return {
-          timing: '08:30 AM - 01:30 PM',
-          labs: 'Interactive Toys Room, Art & Craft Center, Kid\'s Playground',
-          exams: 'Periodic Tests (4 rounds) + Semestral Evaluations (Half Yearly & Annual Assessments)',
-          objectives: 'Strong focus on foundational language concepts (English, Hindi), arithmetic basics, creative visual art, and sensory-motor coordination.'
+          timing: '09:00 AM - 04:00 PM',
+          labs: 'Pharmaceutics Lab, Pharmacology Lab, Pharmaceutical Chemistry Lab, Pharmacognosy Lab, Instrument Room',
+          exams: 'Semester End University Examinations + Sessional internal tests',
+          objectives: 'Comprehensive study of drugs, chemical synthesis, pharmacological testing, clinical pharmacy parameters, and drug regulatory laws.'
         };
-      case 'middle-secondary':
+      case 'd-pharm':
         return {
-          timing: '08:00 AM - 02:00 PM',
-          labs: 'Integrated Science Lab, Computer Science Lab, Social Science Lab',
-          exams: 'Board Structured Class assessments + Project Portfolios + Half Yearly and Final Board Assessments',
-          objectives: 'Fostering inquiry-based logical reasoning in science and mathematics, spatial and political awareness, and advanced grammatical competencies.'
+          timing: '09:00 AM - 03:00 PM',
+          labs: 'Model Dispensing Pharmacy, Biochemistry Lab, EVS & Social Pharmacy Wing',
+          exams: 'Annual Board Examinations + 3 internal sessional assessments',
+          objectives: 'Practical skills in compounding and dispensing medications, patient counseling, community pharmacy shop setup, and hospital drug distribution.'
         };
-      case 'senior-secondary-science':
+      case 'medicinal-garden':
         return {
-          timing: '08:00 AM - 02:00 PM',
-          labs: 'Physics Lab, Chemistry Lab, Biology Lab, High-End Computer Lab',
-          exams: 'Weekly Unit Tests + Lab Practicals evaluations + Mid-Term Assessments + Pre-Board Screenings',
-          objectives: 'Rigorous training in experimental physics and chemistry, advanced mathematics/biological classifications, and preparation for national level entrance exams (JEE, NEET).'
+          timing: 'Daily study: 03:00 PM - 04:30 PM',
+          labs: 'Main botanical garden, drying unit, classification catalog room',
+          exams: 'Phytochemistry identification evaluations + Herbal project reports',
+          objectives: 'Cultivating, cataloging, and studying active constituents of over 100 species of medicinal plants.'
         };
-      case 'senior-secondary-commerce':
+      case 'pharmaceutics-lab':
         return {
-          timing: '08:00 AM - 02:00 PM',
-          labs: 'Informatics Practices Lab, Entrepreneurship Development Room',
-          exams: 'Unit Assessments + Business Case studies reviews + Mid-Terms + Pre-Board evaluations',
-          objectives: 'Mastering principles of double-entry ledger bookkeeping, macro & micro economics frameworks, corporate management dynamics, and quantitative methods.'
+          timing: '10:00 AM - 04:00 PM',
+          labs: 'Advanced industrial formulation facility, sterilization chambers',
+          exams: 'Practical notebook checks + sessional reports + dosage form presentations',
+          objectives: 'Formulation development and quality checking of tablets, capsules, ointments, emulsions, and novel drug carriers.'
         };
-      case 'senior-secondary-arts':
+      case 'pharmacology-wing':
         return {
-          timing: '08:00 AM - 02:00 PM',
-          labs: 'Geography Cartography Room, Humanities Seminar Room',
-          exams: 'Periodic tests + Project Files research checks + Written Semester exams',
-          objectives: 'Nurturing deep critical analysis of historical civilizations, global geopolitical structures, sociopolitical changes, and advanced lingual aesthetics.'
+          timing: '10:00 AM - 04:00 PM',
+          labs: 'Pre-clinical screening room, simulation software systems',
+          exams: 'Toxicity screening reports + animal action simulations + oral vivas',
+          objectives: 'Measuring drug action mechanism, safety indicators, adverse effects, and biological evaluations.'
         };
-      case 'sports-athletics':
+      case 'pharmaceutical-chemistry-lab':
         return {
-          timing: 'Daily sessions: 02:00 PM - 04:00 PM (After Academic hours)',
-          labs: 'Main Cricket Pitch, Outdoor Basketball Court, Indoor Games Room, Yoga Pavilion',
-          exams: 'Physical Fitness Tests (Endurance, Speed, Flex) + Tournament performance awards',
-          objectives: 'Fostering clean team building, cardiovascular fitness, athletic disciplines, self-defense skills, and representing the school in district/state tournaments.'
+          timing: '10:00 AM - 04:00 PM',
+          labs: 'API Synthesis lab, chromatography room, UV spectrophotometer lab',
+          exams: 'Organic synthesis yields + UV spectrophotometry assays + laboratory files',
+          objectives: 'Synthesizing active ingredients, quality control testing, structure elucidation, and analytical purity estimations.'
         };
       default:
         return null;
@@ -88,8 +88,8 @@ const Course = () => {
       <section className="section">
         <div className="container">
           <div className="text-center">
-            <h2 className="section-title">Academic Wings & Streams</h2>
-            <p className="section-subtitle">We offer comprehensive primary, secondary, and specialized senior secondary education streams structured as per state board guidelines.</p>
+            <h2 className="section-title">Academic Courses & Streams</h2>
+            <p className="section-subtitle">We offer professional pharmacy courses approved by the Pharmacy Council of India (PCI) and structured according to standard university guidelines.</p>
           </div>
 
           <div className="course-grid">
@@ -149,7 +149,7 @@ const Course = () => {
             <div className="card" style={{ backgroundColor: '#ffffff' }}>
               <div style={{ color: 'var(--secondary-dark)', marginBottom: '16px' }}><CheckCircle size={28} /></div>
               <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.2rem', marginBottom: '10px' }}>Remedial Classes</h3>
-              <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)' }}>Special guidance sessions are conducted on Saturdays for students requiring additional assistance or practice in core mathematics and sciences.</p>
+              <p style={{ fontSize: '0.88rem', color: 'var(--text-muted)' }}>Special guidance sessions are conducted on Saturdays for students requiring additional assistance or practice in pharmaceutical chemistry and calculations.</p>
             </div>
           </div>
         </div>

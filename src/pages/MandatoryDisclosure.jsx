@@ -5,15 +5,15 @@ import '../styles/pages/pages.css';
 
 const MandatoryDisclosure = () => {
   const documents = [
-    { id: 1, name: 'Affiliation/Upgradation Letter', category: 'General Information', docRef: 'BSA/CBSE/AFF-2025', status: 'VERIFIED' },
+    { id: 1, name: 'PCI Affiliation Approval Letter', category: 'General Information', docRef: 'APC/PCI/AFF-2025', status: 'VERIFIED' },
     { id: 2, name: 'Trust/Society Registration Certificate', category: 'General Information', docRef: 'REG/MATHURA/9845', status: 'VERIFIED' },
     { id: 3, name: 'No Objection Certificate (NOC) from State Govt.', category: 'General Information', docRef: 'NOC/UP/EDU-784', status: 'VERIFIED' },
     { id: 4, name: 'Building Safety Certificate as per NBC', category: 'Safety Compliance', docRef: 'BUILD/PWD/MANT-26', status: 'VERIFIED' },
     { id: 5, name: 'Fire Safety Certificate issued by Fire Dept.', category: 'Safety Compliance', docRef: 'FIRE/FS/MATHURA-99', status: 'VERIFIED' },
     { id: 6, name: 'Water Health & Sanitation Certificate', category: 'Safety Compliance', docRef: 'SAN/CMO/MATHURA-2026', status: 'VERIFIED' },
-    { id: 7, name: 'Approved Annual Fee Structure (Classwise)', category: 'School Details', docRef: 'BSA/FEE/2026-27', status: 'VERIFIED' },
-    { id: 8, name: 'Annual Academic Calendar & Holiday List', category: 'School Details', docRef: 'BSA/CAL/2026-27', status: 'VERIFIED' },
-    { id: 9, name: 'School Managing Committee (SMC) Members List', category: 'School Details', docRef: 'BSA/SMC/LIST-26', status: 'VERIFIED' }
+    { id: 7, name: 'Approved Annual Fee Structure (Coursewise)', category: 'College Details', docRef: 'APC/FEE/2026-27', status: 'VERIFIED' },
+    { id: 8, name: 'Annual Academic Calendar & Holiday List', category: 'College Details', docRef: 'APC/CAL/2026-27', status: 'VERIFIED' },
+    { id: 9, name: 'College Governing Council (CGC) Members List', category: 'College Details', docRef: 'APC/CGC/LIST-26', status: 'VERIFIED' }
   ];
 
   const handleDownload = (docName) => {
@@ -38,7 +38,7 @@ const MandatoryDisclosure = () => {
         <div className="container">
           
           <div className="text-center">
-            <h2 className="section-title">CBSE/State Board Disclosures</h2>
+            <h2 className="section-title">PCI/State Board Disclosures</h2>
             <p className="section-subtitle">Official documents, safety registrations, fee plans, and management guidelines displayed in compliance with educational bylaws.</p>
           </div>
 
@@ -47,16 +47,16 @@ const MandatoryDisclosure = () => {
             {/* Warning alert notice */}
             <div className="disclosure-notice-alert">
               <div className="disclosure-notice-title">
-                <ShieldCheck size={18} style={{ color: 'var(--secondary-dark)' }} /> CBSE Bylaws Compliance Statement
+                <ShieldCheck size={18} style={{ color: 'var(--secondary-dark)' }} /> PCI Bylaws Compliance Statement
               </div>
               <p>
-                In compliance with boarding guidelines, Brij Sthali Academy Senior Secondary School maintains transparent records of society registration, land safety certificates, sanitation reports, and annual fee charts. General public can view or verify the details here.
+                In compliance with regulatory guidelines, Archana Pharmacy College maintains transparent records of PCI affiliation, society registration, land safety certificates, sanitation reports, and annual fee charts. General public can view or verify the details here.
               </p>
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '20px', color: 'var(--primary-color)' }}>
               <FileText size={22} style={{ color: 'var(--secondary-dark)' }} />
-              <h3 style={{ margin: 0, fontSize: '1.25rem' }}>Brij Sthali Academy Certificates</h3>
+              <h3 style={{ margin: 0, fontSize: '1.25rem' }}>Archana Pharmacy College Certificates</h3>
             </div>
 
             <div className="table-responsive">
@@ -102,7 +102,7 @@ const MandatoryDisclosure = () => {
             <div style={{ marginTop: '30px', borderTop: '1px solid var(--border-color)', paddingTop: '20px', fontSize: '0.85rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '10px' }}>
               <HelpCircle size={18} style={{ color: 'var(--primary-color)', flexShrink: 0 }} />
               <p>
-                For older academic ledgers or specific society registration audits, please write an email to the school administrative desk at <strong>brijsthaliacademy2@gmail.com</strong>.
+                For older academic ledgers or specific society registration audits, please write an email to the college administrative desk at <strong>archanapharmacycballia@gmail.com</strong>.
               </p>
             </div>
 

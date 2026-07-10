@@ -28,15 +28,15 @@ const Footer = () => {
           <div className="footer-col">
             <div className="footer-logo">
               <div className="logo-icon-box" style={{ width: '45px', height: '45px', background: '#ffffff', borderRadius: '50%', overflow: 'hidden', padding: '2px', border: '1px solid var(--secondary-color)' }}>
-                <img src="/logo.png" alt="Brij Sthali Academy Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '50%' }} />
+                <img src="/logo.png" alt="Archana Pharmacy College Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '50%' }} />
               </div>
               <div>
-                <h2>Brij Sthali Academy</h2>
-                <span>Senior Secondary School</span>
+                <h2>Archana Pharmacy College</h2>
+                <span>Approved by PCI, New Delhi</span>
               </div>
             </div>
             <p>
-              Nurturing young minds with excellence in academic foundations, critical thinking, sportsmanship, and values. Empowering students for global achievements since our inception.
+              Fostering excellence in pharmaceutical education, clinical research, drug design, and patient care. Preparing the pharmacists of tomorrow since 2024.
             </p>
             <div className="footer-socials">
               <a href="#" className="social-icon-btn" aria-label="Facebook">
@@ -72,7 +72,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li><Link to="/result"><ChevronRight size={14} /> Check Results</Link></li>
               <li><Link to="/tc"><ChevronRight size={14} /> Transfer Certificate (TC)</Link></li>
-              <li><Link to="/blog"><ChevronRight size={14} /> School Blog</Link></li>
+              <li><Link to="/blog"><ChevronRight size={14} /> College Blog</Link></li>
               <li><Link to="/mandatory-disclosure"><ChevronRight size={14} /> Mandatory Disclosure</Link></li>
               <li><Link to="/contact"><ChevronRight size={14} /> Get in Touch</Link></li>
             </ul>
@@ -89,18 +89,16 @@ const Footer = () => {
               <li>
                 <Phone size={18} />
                 <span>
-                  +91 7300709977<br />
-                  +91 8077477382<br />
-                  +91 7895156095
+                  +91 8839248262
                 </span>
               </li>
               <li>
                 <Mail size={18} />
-                <span>brijsthaliacademy2@gmail.com</span>
+                <span>archanapharmacycballia@gmail.com</span>
               </li>
             </ul>
 
-            <h3 style={{ marginTop: '20px', fontSize: '1.05rem' }}>School Newsletter</h3>
+            <h3 style={{ marginTop: '20px', fontSize: '1.05rem' }}>College Newsletter</h3>
             <p style={{ fontSize: '0.85rem', marginBottom: '10px' }}>Subscribe to get latest exam dates, events, and circulars.</p>
             <form onSubmit={handleSubscribe} className="newsletter-form">
               <input 
@@ -126,7 +124,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} Brij Sthali Academy Senior Secondary School. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Archana Pharmacy College. All Rights Reserved.</p>
           <div className="footer-bottom-links">
             <Link to="/mandatory-disclosure">Privacy Policy</Link>
             <Link to="/mandatory-disclosure">Terms of Service</Link>

@@ -18,7 +18,7 @@ const Gallery = () => {
       {/* Page Header */}
       <section className="page-header gallery-header">
         <div className="container">
-          <h1>School Gallery</h1>
+          <h1>College Gallery</h1>
           <div className="breadcrumbs">
             <a href="/">Home</a> <span>/</span> Gallery
           </div>
@@ -30,8 +30,8 @@ const Gallery = () => {
         <div className="container">
           
           <div className="text-center">
-            <h2 className="section-title">Life at Brij Sthali Academy</h2>
-            <p className="section-subtitle">Catch glimpses of sports achievements, modern laboratories, cultural acts, and our green school campus.</p>
+            <h2 className="section-title">Life at Archana Pharmacy College</h2>
+            <p className="section-subtitle">Catch glimpses of sports achievements, modern laboratories, cultural acts, and our green college campus.</p>
           </div>
 
           {/* Filter Tabs */}
