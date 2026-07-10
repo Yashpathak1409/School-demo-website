@@ -84,7 +84,7 @@ const Footer = () => {
             <ul className="footer-contact-info">
               <li>
                 <MapPin size={18} />
-                <span>Vill + Post - Tentigaon, Mant, Mathura, Uttar Pradesh, India</span>
+                <span>Newada Barwan, Ratti Patti, Ballia, Uttar Pradesh, India</span>
               </li>
               <li>
                 <Phone size={18} />

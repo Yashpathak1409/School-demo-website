@@ -42,7 +42,7 @@ const Hostel = () => {
               <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Home Away From Home</span>
               <h2 className="section-title" style={{ display: 'block', textAlign: 'left', margin: '10px 0 20px' }}>Our Residential Campus</h2>
               <p style={{ marginBottom: '16px' }}>
-                Archana Pharmacy College offers comprehensive residential facilities for boys and girls (separate wings) seeking a disciplined and focused academic life. Situated in the peaceful district of Tentigaon, the hostel protects students from distractions, fostering regular study habits.
+                Archana Pharmacy College offers comprehensive residential facilities for boys and girls (separate wings) seeking a disciplined and focused academic life. Situated in the peaceful district of Ballia, the hostel protects students from distractions, fostering regular study habits.
               </p>
               <p style={{ marginBottom: '24px' }}>
                 Under the direct supervision of resident wardens and academic coaches, our boarders get structured evening prep classes, standard meals, and physical conditioning routines daily.

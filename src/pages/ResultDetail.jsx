@@ -58,7 +58,7 @@ const ResultDetail = () => {
                 </div>
                 <div className="transcript-school-info">
                   <h2>Archana Pharmacy College</h2>
-                  <p>Approved by PCI, New Delhi • Vill+Post- Tentigaon, Mant, Mathura</p>
+                  <p>Approved by PCI, New Delhi • Newada Barwan, Ratti Patti, Ballia, UP</p>
                 </div>
               </div>
               <div className="transcript-header-right">

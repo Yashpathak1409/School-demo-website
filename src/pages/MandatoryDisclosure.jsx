@@ -6,11 +6,11 @@ import '../styles/pages/pages.css';
 const MandatoryDisclosure = () => {
   const documents = [
     { id: 1, name: 'PCI Affiliation Approval Letter', category: 'General Information', docRef: 'APC/PCI/AFF-2025', status: 'VERIFIED' },
-    { id: 2, name: 'Trust/Society Registration Certificate', category: 'General Information', docRef: 'REG/MATHURA/9845', status: 'VERIFIED' },
+    { id: 2, name: 'Trust/Society Registration Certificate', category: 'General Information', docRef: 'REG/BALLIA/9845', status: 'VERIFIED' },
     { id: 3, name: 'No Objection Certificate (NOC) from State Govt.', category: 'General Information', docRef: 'NOC/UP/EDU-784', status: 'VERIFIED' },
-    { id: 4, name: 'Building Safety Certificate as per NBC', category: 'Safety Compliance', docRef: 'BUILD/PWD/MANT-26', status: 'VERIFIED' },
-    { id: 5, name: 'Fire Safety Certificate issued by Fire Dept.', category: 'Safety Compliance', docRef: 'FIRE/FS/MATHURA-99', status: 'VERIFIED' },
-    { id: 6, name: 'Water Health & Sanitation Certificate', category: 'Safety Compliance', docRef: 'SAN/CMO/MATHURA-2026', status: 'VERIFIED' },
+    { id: 4, name: 'Building Safety Certificate as per NBC', category: 'Safety Compliance', docRef: 'BUILD/PWD/BALLIA-26', status: 'VERIFIED' },
+    { id: 5, name: 'Fire Safety Certificate issued by Fire Dept.', category: 'Safety Compliance', docRef: 'FIRE/FS/BALLIA-99', status: 'VERIFIED' },
+    { id: 6, name: 'Water Health & Sanitation Certificate', category: 'Safety Compliance', docRef: 'SAN/CMO/BALLIA-2026', status: 'VERIFIED' },
     { id: 7, name: 'Approved Annual Fee Structure (Coursewise)', category: 'College Details', docRef: 'APC/FEE/2026-27', status: 'VERIFIED' },
     { id: 8, name: 'Annual Academic Calendar & Holiday List', category: 'College Details', docRef: 'APC/CAL/2026-27', status: 'VERIFIED' },
     { id: 9, name: 'College Governing Council (CGC) Members List', category: 'College Details', docRef: 'APC/CGC/LIST-26', status: 'VERIFIED' }

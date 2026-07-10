@@ -25,7 +25,7 @@ const Contact = () => {
     },
     {
       q: "Does the college provide transport facilities for day scholars?",
-      a: "Yes, Archana Pharmacy College operates a fleet of secure college buses covering Mant, Tentigaon, and surrounding districts in Mathura for student convenience."
+      a: "Yes, Archana Pharmacy College operates a fleet of secure college buses covering Newada Barwan, Ratti Patti, and surrounding districts in Ballia for student convenience."
     },
     {
       q: "What are the fee payment structures and frequency?",
@@ -90,7 +90,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4>College Location</h4>
-                  <p>Vill + Post - Tentigaon, Mant Sub-district, Mathura District, Uttar Pradesh, PIN - 281205, India</p>
+                  <p>Address: Newada Barwan, Ratti Patti, Ballia, Uttar Pradesh, PIN - 221716, India</p>
                 </div>
               </div>
 
@@ -122,9 +122,9 @@ const Contact = () => {
               <div className="contact-map-mockup">
                 <div className="map-overlay-card">
                   <h4>Archana Pharmacy College</h4>
-                  <p>Vill+Post- Tentigaon, Mant, Mathura</p>
+                  <p>Newada Barwan, Ratti Patti, Ballia, UP</p>
                   <a 
-                    href="https://maps.google.com/?q=Archana+Pharmacy+College+Tentigaon+Mathura" 
+                    href="https://maps.google.com/?q=Archana+Pharmacy+College+Newada+Barwan+Ratti+Patti+Ballia" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="btn btn-secondary" 

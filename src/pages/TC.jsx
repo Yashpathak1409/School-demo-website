@@ -141,7 +141,7 @@ const TC = () => {
                         </div>
                       </div>
                       <h2>Archana Pharmacy College</h2>
-                      <p>Approved by PCI, New Delhi • Vill+Post- Tentigaon, Mathura</p>
+                      <p>Approved by PCI, New Delhi • Newada Barwan, Ratti Patti, Ballia, UP</p>
                       <span style={{ fontSize: '0.75rem', color: 'var(--success-color)', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '4px', border: '1px solid var(--success-color)', padding: '2px 8px', borderRadius: '4px', marginTop: '6px', backgroundColor: '#ecfdf5' }}>
                         ✓ OFFICIAL SYSTEM VERIFIED
                       </span>

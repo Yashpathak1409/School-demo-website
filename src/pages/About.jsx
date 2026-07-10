@@ -24,9 +24,9 @@ const About = () => {
             
             <div className="about-intro-content animate-slide-up">
               <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1px' }}>Established 2024</span>
-              <h2 className="section-title" style={{ display: 'block', textAlign: 'left', margin: '10px 0 20px' }}>Pharmaceutical Excellence in Mathura</h2>
+              <h2 className="section-title" style={{ display: 'block', textAlign: 'left', margin: '10px 0 20px' }}>Pharmaceutical Excellence in Ballia</h2>
               <p>
-                Archana Pharmacy College is a premier pharmaceutical institution located in the peaceful landscape of <strong>Vill+Post- Tentigaon, Mant, Mathura</strong>. Established with a vision to make top-tier healthcare and pharmaceutical education accessible, the college has grown into a hub of academic excellence, research, and ethics.
+                Archana Pharmacy College is a premier pharmaceutical institution located in the peaceful landscape of <strong>Newada Barwan, Ratti Patti, Ballia, UP</strong>. Established with a vision to make top-tier healthcare and pharmaceutical education accessible, the college has grown into a hub of academic excellence, research, and ethics.
               </p>
               <p>
                 Approved by the Pharmacy Council of India (PCI), New Delhi, we offer Bachelor of Pharmacy (B.Pharm) and Diploma in Pharmacy (D.Pharm) courses. Our campus is spread over a sprawling area, offering a modern, state-of-the-art laboratory and focused learning environment.

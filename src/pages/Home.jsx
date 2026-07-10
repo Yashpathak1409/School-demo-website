@@ -32,7 +32,7 @@ const Home = () => {
             <span className="hero-badge">Est. 2024 • Approved by PCI</span>
             <h1>Shaping the Future of <span>Pharmaceutical Care</span></h1>
             <p>
-              Welcome to Archana Pharmacy College, a premier institution in Tentigaon (Mathura) dedicated to providing quality education in pharmacy, advanced laboratory training, and clinical excellence.
+              Welcome to Archana Pharmacy College, a premier institution in Ballia (UP) dedicated to providing quality education in pharmacy, advanced laboratory training, and clinical excellence.
             </p>
             <div className="hero-actions">
               <Link to="/course" className="btn btn-secondary">
@@ -56,7 +56,7 @@ const Home = () => {
             <span>🎓 Admissions open for Academic Session 2026-27 for D.Pharm & B.Pharm. Apply online or call 8839248262.</span>
             <span>📝 Semester mock examinations for B.Pharm and D.Pharm courses begin next week. View details in Academics Portal.</span>
             <span>🏆 Congratulations to our students for winning the Inter-College Pharmacy Quiz Championship!</span>
-            <span>🚌 College transport facility covers Mant, Tentigaon, and surrounding Mathura districts from July 1st.</span>
+            <span>🚌 College transport facility covers Newada Barwan, Ratti Patti, and surrounding Ballia districts from July 1st.</span>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@ const Home = () => {
                 "Our core commitment at Archana Pharmacy College is to foster innovation, clinical integrity, and research excellence. Pharmaceutical education is about giving students the advanced laboratories, formulation expertise, and scientific ethics to serve global healthcare."
               </p>
               <p style={{ color: 'var(--text-muted)', marginBottom: '30px' }}>
-                Under the guidance of our dedicated lecturers and pharmaceutical mentors, we have created an academic campus in Mathura that blends modern pharmacology research, digital drug design portals, and traditional values. We invite students to join us in shaping the future of healthcare.
+                Under the guidance of our dedicated lecturers and pharmaceutical mentors, we have created an academic campus in Ballia that blends modern pharmacology research, digital drug design portals, and traditional values. We invite students to join us in shaping the future of healthcare.
               </p>
               <div className="principal-signature">
                 <h4>Manoj Kumar</h4>

@@ -1,6 +1,6 @@
 # Archana Pharmacy College - Official Website
 
-Welcome to the official web application repository of **Archana Pharmacy College**, situated in Vill+Post- Tentigaon, Mant, Mathura.
+Welcome to the official web application repository of **Archana Pharmacy College**, situated in Newada Barwan, Ratti Patti, Ballia, UP.
 
 This is a premium, highly responsive, and interactive college website built using **React**, **Vite**, and **Vanilla CSS** (conforming to strict aesthetic guidelines).
 
@@ -9,7 +9,7 @@ This is a premium, highly responsive, and interactive college website built usin
 ## 🏛️ College Information Summary
 
 *   **Name**: Archana Pharmacy College
-*   **Location**: Vill + Post - Tentigaon, Mant, Mathura, Uttar Pradesh, PIN - 281205
+*   **Location**: Newada Barwan, Ratti Patti, Ballia, Uttar Pradesh, PIN - 221716
 *   **Affiliation**: Approved by Pharmacy Council of India (PCI), New Delhi
 *   **Email**: [archanapharmacycballia@gmail.com](mailto:archanapharmacycballia@gmail.com)
 *   **Phone**: +91 8839248262
