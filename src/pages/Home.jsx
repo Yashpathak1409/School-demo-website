@@ -1,13 +1,31 @@
 // src/pages/Home.jsx
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Users, Award, ShieldAlert, ChevronRight, BookOpen, 
-  ArrowUpRight, Building, HelpCircle, CheckSquare, BellRing 
+  ArrowUpRight, Building, HelpCircle, CheckSquare, BellRing,
+  Calendar, User
 } from 'lucide-react';
+import { blogData, galleryData } from '../data/mockData';
 import '../styles/pages/pages.css';
 
 const Home = () => {
+  const heroImages = [
+    'https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1600&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1600&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1600&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1579154204601-01588f35116f?q=80&w=1600&auto=format&fit=crop'
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="home-wrapper">
       
@@ -26,7 +44,16 @@ const Home = () => {
       </div>
 
       {/* 1. Hero Banner */}
-      <section className="hero-section">
+      <section 
+        className="hero-section"
+        style={{
+          backgroundImage: `linear-gradient(rgba(11, 34, 64, 0.65), rgba(5, 19, 41, 0.85)), url('${heroImages[currentImageIndex]}')`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          transition: 'background-image 1.2s ease-in-out'
+        }}
+      >
         <div className="container">
           <div className="hero-content animate-slide-up">
             <span className="hero-badge">Est. 2024 • Approved by PCI</span>
@@ -136,6 +163,85 @@ const Home = () => {
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* 4.5. Latest News & Campus Highlights */}
+      <section className="section section-bg-light">
+        <div className="container">
+          <div className="text-center">
+            <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1.5px' }}>Updates & News</span>
+            <h2 className="section-title">Latest Campus Highlights</h2>
+            <p className="section-subtitle">Read about recently conducted workshops, sporting events, and academic guidelines.</p>
+          </div>
+
+          <div className="blog-grid" style={{ marginTop: '30px' }}>
+            {blogData.slice(0, 3).map((blog) => (
+              <div key={blog.id} className="card blog-card">
+                <div className="blog-image-wrapper">
+                  <img src={blog.image} alt={blog.title} loading="lazy" style={{ height: '220px', objectFit: 'cover', width: '100%' }} />
+                  <span className="blog-meta-badge">{blog.category}</span>
+                </div>
+                <div className="blog-card-content" style={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
+                  <div className="blog-date-author">
+                    <span style={{ marginRight: '15px', display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                      <Calendar size={13} /> {blog.date}
+                    </span>
+                    <span style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                      <User size={13} /> {blog.author}
+                    </span>
+                  </div>
+                  <h3>{blog.title}</h3>
+                  <p>{blog.excerpt}</p>
+                  <Link 
+                    to="/blog"
+                    className="btn btn-outline" 
+                    style={{ marginTop: 'auto', alignSelf: 'flex-start' }}
+                  >
+                    Read Article <ChevronRight size={14} />
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="text-center" style={{ marginTop: '40px' }}>
+            <Link to="/blog" className="btn btn-primary">
+              View All Blog Articles <ChevronRight size={16} />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* 4.6. Gallery Highlights */}
+      <section className="section">
+        <div className="container">
+          <div className="text-center">
+            <span className="text-gold" style={{ fontWeight: 700, fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '1.5px' }}>Visual Tour</span>
+            <h2 className="section-title">Campus Gallery Highlights</h2>
+            <p className="section-subtitle">Catch glimpses of sports achievements, modern laboratories, and our green college campus.</p>
+          </div>
+
+          <div className="gallery-highlights-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px', marginTop: '30px' }}>
+            {galleryData.slice(0, 4).map((item) => (
+              <div key={item.id} className="card" style={{ padding: '0', overflow: 'hidden', height: '240px', position: 'relative', borderRadius: '8px', border: '1px solid var(--border-color)' }}>
+                <img 
+                  src={item.image} 
+                  alt={item.title} 
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }} 
+                  onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.06)'}
+                  onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1.0)'}
+                />
+                <div style={{ position: 'absolute', bottom: '0', left: '0', right: '0', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))', padding: '15px', color: '#ffffff' }}>
+                  <h4 style={{ margin: '0', fontSize: '0.92rem', fontWeight: 600, textShadow: '1px 1px 2px rgba(0,0,0,0.8)' }}>{item.title}</h4>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="text-center" style={{ marginTop: '40px' }}>
+            <Link to="/gallery" className="btn btn-outline">
+              Explore Full Gallery <ChevronRight size={16} />
+            </Link>
           </div>
         </div>
       </section>
